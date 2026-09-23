@@ -5,7 +5,7 @@ highlighter: shiki
 drawings:
   persist: false
 transition: none
-title: Расчетно - графическая работа по дисциплине: Современнеы численные методы
+title: "Расчетно - графическая работа по дисциплине: Современные численные методы"
 css: unocss
 lineNumbers: true
 ---
