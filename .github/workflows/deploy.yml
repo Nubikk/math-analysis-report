@@ -43,7 +43,7 @@ jobs:
 
       # Сборка монолитного лонгрида (без презентационных панелей и кнопок)
       - name: Build Slidev SPA
-        run: pnpm run build -- --base /${{ github.event.repository.name }}/ --entry doc
+        run: pnpm run build -- --entry doc
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
