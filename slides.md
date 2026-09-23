@@ -116,18 +116,8 @@ slots:
 
 ::right::
 <div class="flex justify-center items-center h-full pl-4">
-  <div class="w-full bg-white p-3 rounded shadow-md border border-gray-700 text-black text-[10px]">
-    <div class="font-bold text-center mb-1 text-xs text-gray-800">Верификация интерполяции ln(14x+14)</div>
-    <div class="flex flex-col gap-1 font-mono">
-      <div class="flex justify-between border-b pb-0.5"><span class="text-gray-500">x = 0.00 (Узел):</span> <span>2.639057</span></div>
-      <div class="flex justify-between border-b pb-0.5"><span class="text-blue-600">x = 0.66 (Лагранж):</span> <span>3.146253</span></div>
-      <div class="flex justify-between border-b pb-0.5"><span class="text-green-600">x = 0.66 (Сплайн):</span> <span>3.146493</span></div>
-      <div class="flex justify-between border-b pb-0.5"><span class="font-bold text-red-600">x = 0.66 (Точное):</span> <span>3.145875</span></div>
-      <div class="flex justify-between border-b pb-0.5"><span class="text-gray-500">x = 1.00 (Узел):</span> <span>3.332205</span></div>
-      <div class="flex justify-between pb-0.5"><span class="text-gray-500">x = 2.00 (Узел):</span> <span>3.737670</span></div>
-    </div>
-    <div class="mt-2 text-[9px] text-center text-gray-400 italic border-t pt-1">Сетка и узлы совпадают с точностью до 10⁻⁴</div>
-  </div>
+  <!-- Используем относительный путь ./ и инверсию/подложку под темную тему -->
+  <img src="./g_lab_2.png" class="max-h-[250px] w-auto object-contain bg-white p-2 rounded shadow-md border border-gray-700" />
 </div>
 
 ---
@@ -179,19 +169,10 @@ $\int_{0}^{1} (x^{14} + 1) dx$
 * **Метод трапеций:** 1.066695 (Погр: $2.92 \cdot 10^{-5}$)
 * **Метод Симпсона:** 1.066666 (Погр: $7.58 \cdot 10^{-9}$)
 
+<!-- В Задании 3 (Интегрирование) -->
 ::right::
 <div class="flex justify-center items-center h-full pl-4">
-  <div class="w-full bg-white p-3 rounded shadow-md border border-gray-700 text-black text-[11px]">
-    <div class="font-bold text-center mb-2 text-xs text-gray-800">Логарифмический масштаб по N</div>
-    <div class="space-y-1 font-mono">
-      <div class="flex justify-between border-b pb-0.5"><span class="text-red-600 font-bold">Симпсон (N=200):</span> <span>7.58e-09</span></div>
-      <div class="flex justify-between border-b pb-0.5"><span class="text-orange-600">Средние (N=200):</span> <span>1.46e-05</span></div>
-      <div class="flex justify-between border-b pb-0.5"><span class="text-blue-500">Трапеции (N=200):</span> <span>2.92e-05</span></div>
-      <div class="flex justify-between border-b pb-0.5"><span class="text-green-600">Левые (N=200):</span> <span>2.47e-03</span></div>
-      <div class="flex justify-between pb-0.5"><span class="text-purple-600">Правые (N=200):</span> <span>2.53e-03</span></div>
-    </div>
-    <div class="mt-3 text-[9px] text-gray-400 text-center border-t pt-1">Скорость сходимости метода Симпсона наивысшая</div>
-  </div>
+  <img src="./g_lab_3.png" class="max-h-[250px] w-auto object-contain bg-white p-2 rounded shadow-md border border-gray-700" />
 </div>
 
 ---
@@ -357,19 +338,10 @@ $y_{exact}(x) = \exp\left(14x - \frac{x^2}{2}\right)$
   Сопоставление полученных численных значений со сплошной теоретической кривой верифицировано в блоке справа.
 </span>
 
+<!-- В Задании 5 (ОДУ) -->
 ::right::
 <div class="flex justify-center items-center h-full pl-4">
-  <div class="w-full bg-white p-3 rounded shadow-md border border-gray-700 text-black text-[11px]">
-    <div class="font-bold text-center mb-2 text-xs text-gray-800">Задача Коши: RK45 vs Аналитика</div>
-    <div class="space-y-1 font-mono">
-      <div class="flex justify-between border-b pb-0.5"><span>x = 0.0:</span> <span>y = 1.000000</span></div>
-      <div class="flex justify-between border-b pb-0.5"><span>x = 0.5:</span> <span>y = 967.8710</span></div>
-      <div class="flex justify-between border-b pb-0.5"><span>x = 1.0:</span> <span>y = 922021.9</span></div>
-      <div class="flex justify-between border-b pb-0.5"><span>x = 1.5:</span> <span>y = 4.41e+08</span></div>
-      <div class="flex justify-between pb-0.5"><span class="font-bold text-red-600">x = 2.0 (RK45):</span> <span class="font-bold">2.41e+10</span></div>
-    </div>
-    <div class="mt-3 text-[9px] text-gray-400 text-center border-t pt-1">Абсолютное совпадение расчетной траектории</div>
-  </div>
+  <img src="./g_lab_5.png" class="max-h-[250px] w-auto object-contain bg-white p-2 rounded shadow-md border border-gray-700" />
 </div>
 
 ---
