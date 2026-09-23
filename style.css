@@ -1,0 +1,54 @@
+#slidev-goto-dialog > div.autocomplete-list,
+.slidev-nav-sidebar,
+.slidev-overview-container,
+.slidev-presenter-next-container {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* style.css */
+
+/* Корректно скрываем боковое автодополнение, которое мешало на первом шаге */
+#slidev-goto-dialog > div.autocomplete-list,
+.slidev-nav-sidebar,
+.slidev-overview-container {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Белая подложка для графиков, чтобы их сетка была видна в темной теме */
+.graph-border {
+  background-color: #ffffff !important;
+  padding: 10px !important;
+  border-radius: 6px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* style.css */
+
+/* Настройка вертикального скролла для блоков кода */
+.slidev-layout pre {
+  max-height: 280px !important;  /* Жестко ограничиваем высоту блока кода */
+  overflow-y: auto !important;   /* Включаем вертикальную прокрутку при переполнении */
+  overflow-x: auto !important;   /* Сохраняем горизонтальную прокрутку для длинных строк */
+}
+
+/* Стилизация скроллбара под академический стиль отчета (опционально) */
+.slidev-layout pre::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.slidev-layout pre::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* Темно-серый бегунок */
+  border-radius: 3px;
+}
+
+.slidev-layout pre::-webkit-scrollbar-track {
+  background-color: #1f2937; /* Фон подложки скролла */
+}
