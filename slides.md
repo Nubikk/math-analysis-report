@@ -110,14 +110,8 @@ slots:
 </span>
 
 ::right::
-
-<div class="flex justify-center items-center h-full pl-4">
-  <!-- Встраиваем интерактивный Plotly график через iframe -->
-  <iframe 
-    src="/charts/lab2.html" 
-    class="w-full h-[280px] border border-gray-700 rounded shadow-md bg-white"
-    scrolling="no">
-  </iframe>
+<div class="flex justify-center items-center h-full pl-2">
+  <iframe src="/math-analysis-report/charts/lab2.html" class="w-[385px] h-[275px] border border-gray-700 rounded shadow-md bg-white overflow-hidden" scrolling="no"></iframe>
 </div>
 
 ---
@@ -169,10 +163,10 @@ $\int_{0}^{1} (x^{14} + 1) dx$
 * **Метод трапеций:** 1.066695 (Погр: $2.92 \cdot 10^{-5}$)
 * **Метод Симпсона:** 1.066666 (Погр: $7.58 \cdot 10^{-9}$)
 
+<!-- В Задании 3 -->
 ::right::
-
-<div class="flex justify-center items-center h-full pl-4">
-  <iframe src="/charts/lab3.html" class="w-full h-[280px] border border-gray-700 rounded shadow-md bg-white" scrolling="no"></iframe>
+<div class="flex justify-center items-center h-full pl-2">
+  <iframe src="/math-analysis-report/charts/lab3.html" class="w-[385px] h-[275px] border border-gray-700 rounded shadow-md bg-white overflow-hidden" scrolling="no"></iframe>
 </div>
 
 ---
@@ -377,10 +371,10 @@ $y_{exact}(x) = \exp\left(14x - \frac{x^2}{2}\right)$
   График справа иллюстрирует сопоставление полученных численных значений со сплошной теоретической кривой на интервале $[0, 2]$.
 </span>
 
+<!-- В Задании 5 -->
 ::right::
-
-<div class="flex justify-center items-center h-full pl-4">
-  <iframe src="/charts/lab5.html" class="w-full h-[280px] border border-gray-700 rounded shadow-md bg-white" scrolling="no"></iframe>
+<div class="flex justify-center items-center h-full pl-2">
+  <iframe src="/math-analysis-report/charts/lab5.html" class="w-[385px] h-[275px] border border-gray-700 rounded shadow-md bg-white overflow-hidden" scrolling="no"></iframe>
 </div>
 
 ---
