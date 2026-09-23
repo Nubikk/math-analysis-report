@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  // Принудительно заставляем Vite собирать относительные пути 
-  // или использовать точный путь подпапки репозитория на GitHub Pages
-  base: './',
+  // Задаем жесткий базовый путь до подпапки на GitHub Pages
+  base: '/math-analysis-report/',
 })
