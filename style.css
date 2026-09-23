@@ -52,3 +52,25 @@
 .slidev-layout pre::-webkit-scrollbar-track {
   background-color: #1f2937; /* Фон подложки скролла */
 }
+/* style.css */
+
+/* Включаем автоматическую вертикальную прокрутку для переполненных слайдов */
+.slidev-layout {
+  overflow-y: auto !important;   /* Скролл появится только тогда, когда текст действительно не влезает */
+  max-height: 100vh !important;  /* Ограничиваем контент высотой экрана браузера */
+  padding-bottom: 2.5rem !important; /* Добавляем отступ снизу, чтобы текст не прилипал к краю */
+}
+
+/* Красивый и аккуратный тонкий скроллбар для страниц отчета */
+.slidev-layout::-webkit-scrollbar {
+  width: 6px;
+}
+
+.slidev-layout::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* Серый бегунок под цвет академической темы */
+  border-radius: 4px;
+}
+
+.slidev-layout::-webkit-scrollbar-track {
+  background-color: transparent; /* Прозрачный фон, чтобы не портить дизайн */
+}
